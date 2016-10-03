@@ -12,9 +12,21 @@ namespace AlgoritmeAfl
 {
     public partial class Form1 : Form
     {
+        private GridManager visualManager;
         public Form1()
         {
             InitializeComponent();
+
+            ClientSize = new Size(800,800);
+
+            visualManager = new GridManager(CreateGraphics(),this.DisplayRectangle);
         }
+
+        private void LoopTick(object sender, EventArgs e)
+        {
+            visualManager.Render();
+        }
+
+        
     }
 }

@@ -1,2 +1,10 @@
 c:\users\maks\documents\visual studio 2015\Projects\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.exe.config
 C:\Users\arnar\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.exe.config
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.exe.config
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.exe
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.pdb
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.csprojResolveAssemblyReference.cache
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.Properties.Resources.resources
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.csproj.GenerateResource.Cache
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.exe
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.pdb
