@@ -8,3 +8,12 @@ C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug
 C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.csproj.GenerateResource.Cache
 C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.exe
 C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.pdb
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.exe.config
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.exe
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.pdb
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.csprojResolveAssemblyReference.cache
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.Properties.Resources.resources
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.csproj.GenerateResource.Cache
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.exe
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.pdb
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.Form1.resources

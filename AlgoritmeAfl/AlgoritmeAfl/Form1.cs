@@ -22,11 +22,10 @@ namespace AlgoritmeAfl
             visualManager = new GridManager(CreateGraphics(),this.DisplayRectangle);
         }
 
-        private void LoopTick(object sender, EventArgs e)
+
+        private void Loop_Tick(object sender, EventArgs e)
         {
             visualManager.Render();
         }
-
-        
     }
 }
