@@ -17,3 +17,5 @@ C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debu
 C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.exe
 C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.pdb
 C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.Form1.resources
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.Form1.resources
+C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Wall.png

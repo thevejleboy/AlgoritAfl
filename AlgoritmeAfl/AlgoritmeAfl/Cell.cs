@@ -31,7 +31,13 @@ namespace AlgoritmeAfl
         {
             dc.FillRectangle(new SolidBrush(Color.White),BoundingRectangle );
             dc.DrawRectangle(new Pen(Color.Black),BoundingRectangle );
+            if (sprite != null)
+            {
+                dc.DrawImage(sprite,BoundingRectangle);
+            }
 
         }
+
+        
     }
 }

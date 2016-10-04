@@ -36,10 +36,12 @@ namespace AlgoritmeAfl
         public void Render()
         {
             dc.Clear(Color.White);
+
             foreach (Cell cell in grid)
             {
                 cell.Render(dc);
             }
+           
 
             backBuffer.Render();
         }
@@ -52,7 +54,7 @@ namespace AlgoritmeAfl
             int cellSize = displayRectangle.Width/cellRowCount;
 
             //Creates Cells
-            for (int x=0;x<cellRowCount;x++)
+            for (int x = 0;x < cellRowCount; x++)
             {
                 for (int y = 0; y < cellRowCount; y++)
                 {
