@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace AlgoritmeAfl
 {
+    enum CellType { WIZARD, PORTAL, WALL, TREE, TOWER, KEY };
     class Cell
     {
         private Point position;
         private int cellSize;
         private Image sprite;
+
 
         public Rectangle BoundingRectangle
         {
@@ -36,6 +38,14 @@ namespace AlgoritmeAfl
                 dc.DrawImage(sprite,BoundingRectangle);
             }
 
+        }
+        public void CellType(ref CellType cellType)
+        {
+            if (cellType == WALL)
+            {
+
+
+            }
         }
 
         

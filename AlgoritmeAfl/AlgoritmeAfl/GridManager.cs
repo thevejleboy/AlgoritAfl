@@ -62,6 +62,17 @@ namespace AlgoritmeAfl
                 }
             }
         }
+        public void CellSpot(Point position)
+        {
+            foreach (Cell cell in grid) //Finds the cell that we just clicked
+            {
+                if (cell.BoundingRectangle.IntersectsWith(new Rectangle(position, new Size(1, 1))))
+                {
+                    cell.Click(ref clickType);
+                }
+
+            }
+        }
 
     }
 }

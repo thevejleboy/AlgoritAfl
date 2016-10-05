@@ -12,7 +12,7 @@ namespace AlgoritmeAfl
         string image;
         
 
-        public Wall(string imagePath,PointF position) : base(imagePath,new PointF())
+        public Wall(string imagePath,PointF position, float scaleFactor) : base(imagePath, position, scaleFactor)
         {
             
         }

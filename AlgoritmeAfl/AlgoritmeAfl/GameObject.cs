@@ -12,20 +12,18 @@ namespace AlgoritmeAfl
         Image sprite;
 
         PointF position;
+        float scaleFactor;
 
-        public GameObject(string imagePath, PointF startposition)
+        public GameObject(string imagePath, PointF startposition, float scaleFactor)
         {
-            
+            this.scaleFactor = scaleFactor;
         }
 
-        public void Update()
-        {
-            
-        }
 
-        public void Render(Graphics dc)
+
+        public void Draw(Graphics dc)
         {
-            
+            dc.DrawImage(sprite, position.X, position.Y, sprite.Width * scaleFactor, sprite.Height * scaleFactor);
         }
     }
 }
