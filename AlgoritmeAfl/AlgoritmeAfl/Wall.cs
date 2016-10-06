@@ -7,13 +7,17 @@ using System.Threading.Tasks;
 
 namespace AlgoritmeAfl
 {
-    class Wall:GameObject
+    class Wall
     {
-        string image;
-        
+        Graphics dc;
+        Rectangle displayRectangle;
+        GridManager grid;
+        public Point Position { get; set; }
 
-        public Wall(string imagePath,PointF position, float scaleFactor) : base(imagePath, position, scaleFactor)
+        public Wall(Point position) 
         {
+
+            this.Position = position;
             
         }
     }

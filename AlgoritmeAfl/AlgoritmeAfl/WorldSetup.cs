@@ -10,29 +10,19 @@ namespace AlgoritmeAfl
     class WorldSetup
     {
 
-        private Graphics dc;
-        private static List<GameObject> objects;
-        public static List<GameObject> Objects
+       
+        public WorldSetup()
         {
-            get { return objects; }
-            set { objects = value; }
-        }
-        public WorldSetup(Graphics dc)
-        {
-            objects = new List<GameObject>();
+            CreateScene();
 
         }
-        public void CreateScene()
+        public List<Wall> CreateScene()
         {
-            Wall wall1 = new Wall();
-            Draw();
-        }
-        private void Draw()
-        {
-            foreach (GameObject objects1 in objects)
-            {
-                objects1.Draw(dc);
-            }
+            List<Wall> walls = new List<Wall>();
+            walls.Add(new Wall(new Point(200,200)));
+            walls.Add(new Wall(new Point(400,400)));
+
+            return walls;
         }
     }
 }

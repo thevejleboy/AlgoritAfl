@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace AlgoritmeAfl
 {
-    enum CellType { WIZARD, PORTAL, WALL, TREE, TOWER, KEY };
+    
     class Cell
     {
         private Point position;
         private int cellSize;
         private Image sprite;
-
 
         public Rectangle BoundingRectangle
         {
@@ -39,11 +38,11 @@ namespace AlgoritmeAfl
             }
 
         }
-        public void CellType(ref CellType cellType)
+        public void ChooseCell(string cellType)
         {
-            if (cellType == WALL)
+            if (cellType == "WALL")
             {
-
+                sprite = Image.FromFile(@"Images\Wall.png");
 
             }
         }

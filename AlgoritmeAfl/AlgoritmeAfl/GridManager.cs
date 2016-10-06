@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace AlgoritmeAfl
 {
-    class GridManager
+    public class GridManager
     {
+
         BufferedGraphics backBuffer;
         Graphics dc;
         Rectangle displayRectangle;
@@ -16,11 +17,15 @@ namespace AlgoritmeAfl
         // Number of rows
         int cellRowCount;
 
-        private List<Cell> grid; 
+        private List<Cell> grid;
+        private List<Wall> walls;
+
+
 
         public GridManager(Graphics dc, Rectangle displayRectangle)
         {
             this.backBuffer = BufferedGraphicsManager.Current.Allocate(dc, displayRectangle);
+
 
             this.dc = backBuffer.Graphics;
 
@@ -41,8 +46,8 @@ namespace AlgoritmeAfl
             {
                 cell.Render(dc);
             }
-           
 
+           // worldSetup.CreateScene();
             backBuffer.Render();
         }
 
@@ -62,13 +67,14 @@ namespace AlgoritmeAfl
                 }
             }
         }
-        public void CellSpot(Point position)
+   
+        public void CellSpot(Point position, string clickType)
         {
             foreach (Cell cell in grid) //Finds the cell that we just clicked
             {
                 if (cell.BoundingRectangle.IntersectsWith(new Rectangle(position, new Size(1, 1))))
                 {
-                    cell.Click(ref clickType);
+                    cell.ChooseCell(clickType);
                 }
 
             }
