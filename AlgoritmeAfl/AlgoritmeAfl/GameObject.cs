@@ -7,14 +7,16 @@ using System.Drawing;
 
 namespace AlgoritmeAfl
 {
-    class Tree : GameObject
+    class GameObject
     {
+        public Point Position { get; set; }
         string name;
-        private Point position;
-        public Tree(Point position, string name) : base(position,name)
+
+        public GameObject(Point position, string name)
         {
-            this.position = position;
+            this.Position = position;
             this.name = name;
+            GridManager.Name = this.name;
         }
     }
 }

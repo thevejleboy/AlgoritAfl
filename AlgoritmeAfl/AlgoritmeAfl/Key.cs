@@ -7,16 +7,18 @@ using System.Drawing;
 
 namespace AlgoritmeAfl
 {
-    class Key
+    class Key:GameObject
     {
         public Point Position { get; set; }
-        public int KeyType { get; set; }
 
-        public Key(Point position, int keyType)
+        public string KeyName { get; set; }
+
+        public Key(Point position, string keyName): base(position, keyName)
         {
 
-            this.Position = position;
-            this.KeyType = keyType;
+            this.Position = position;;
+            KeyName = keyName;
+
 
         }
     }

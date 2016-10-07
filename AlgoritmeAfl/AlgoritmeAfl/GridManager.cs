@@ -13,13 +13,12 @@ namespace AlgoritmeAfl
         BufferedGraphics backBuffer;
         Graphics dc;
         Rectangle displayRectangle;
-
         // Number of rows
         int cellRowCount;
+        WorldSetup worldSetup = new WorldSetup();
 
-        private List<Cell> grid;
-
-
+        public List<Cell> GridList { get; set; }
+        public static string Name { get; set; }
 
 
         public GridManager(Graphics dc, Rectangle displayRectangle)
@@ -42,7 +41,7 @@ namespace AlgoritmeAfl
         {
             dc.Clear(Color.White);
 
-            foreach (Cell cell in grid)
+            foreach (Cell cell in GridList)
             {
                 cell.Render(dc);
             }
@@ -54,7 +53,7 @@ namespace AlgoritmeAfl
         //Creates Grid
         public void CreateGrid()
         {
-            grid= new List<Cell>();
+            GridList = new List<Cell>();
 
             int cellSize = displayRectangle.Width/cellRowCount;
 
@@ -63,14 +62,14 @@ namespace AlgoritmeAfl
             {
                 for (int y = 0; y < cellRowCount; y++)
                 {
-                    grid.Add(new Cell(new Point(x, y), cellSize,""));
+                    GridList.Add(new Cell(new Point(x, y), cellSize, Name));
                 }
             }
         }
    
         public void CellSpot(Point position, string clickType)
         {
-            foreach (Cell cell in grid) //Finds the cell that we just clicked
+            foreach (Cell cell in GridList) //Finds the cell that we just clicked
             {
                 if (cell.BoundingRectangle.IntersectsWith(new Rectangle(position, new Size(1, 1))))
                 {
@@ -78,6 +77,18 @@ namespace AlgoritmeAfl
                 }
 
             }
+        }
+        public string Destination()
+        {
+            string des = "";
+            if (des == "")
+            {
+                des = "Key1";
+            }
+
+
+            return des;
+
         }
 
     }

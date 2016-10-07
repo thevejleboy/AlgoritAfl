@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace AlgoritmeAfl
 {
     
-    class Cell
+    public class Cell
     {
         private Point position;
         private int cellSize;
@@ -82,7 +82,7 @@ namespace AlgoritmeAfl
         {
             this.position = position;
             this.cellSize = size;
-            this.name = Name;
+            this.name = name;
         }
 
         public void Render(Graphics dc)
@@ -123,6 +123,11 @@ namespace AlgoritmeAfl
 
             }
             if (cellType == "PORTAL")
+            {
+                sprite = Image.FromFile(@"Images\Portal.png");
+
+            }
+            if (cellType == "WALKED")
             {
                 sprite = Image.FromFile(@"Images\Portal.png");
 

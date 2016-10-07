@@ -7,16 +7,16 @@ using System.Drawing;
 
 namespace AlgoritmeAfl
 {
-    class Tower
+    class Tower : GameObject
     {
         public Point Position { get; set; }
-        public int Key { get; set; }
+        private string name;
 
-        public Tower(Point position, int key)
+        public Tower(Point position, string name) : base(position, name)
         {
 
             this.Position = position;
-            this.Key = key;
+            this.name = name;
         }
     }
 }

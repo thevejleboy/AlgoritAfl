@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AlgoritmeAfl
 {
-    class Edge
+    public class Edge
     {
        
         private Cell from; 
