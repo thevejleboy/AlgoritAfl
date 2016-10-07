@@ -20,6 +20,12 @@ C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debu
 C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.Form1.resources
 C:\Users\TheVejleBoy\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Wall.png
 C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Wall.png
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Bound_Wizard.png
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Grass.png
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\key.png
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Portal.png
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\tower2.png
+C:\Users\UNIVEEEEERSE\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Tree.png
 C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.exe.config
 C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Wall.png
 C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\AlgoritmeAfl.exe

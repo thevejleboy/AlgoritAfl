@@ -18,7 +18,7 @@ namespace AlgoritmeAfl
         int cellRowCount;
 
         private List<Cell> grid;
-        private List<Wall> walls;
+
 
 
 
@@ -31,7 +31,7 @@ namespace AlgoritmeAfl
 
             this.displayRectangle = displayRectangle;
 
-            cellRowCount = 10;
+            cellRowCount = 12;
 
             CreateGrid();
         }

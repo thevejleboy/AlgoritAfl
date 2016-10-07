@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace AlgoritmeAfl
 {
-    class Wall
+    class Key
     {
-
         public Point Position { get; set; }
+        public int KeyType { get; set; }
 
-        public Wall(Point position) 
+        public Key(Point position, int keyType)
         {
 
             this.Position = position;
-            
+            this.KeyType = keyType;
+
         }
     }
 }

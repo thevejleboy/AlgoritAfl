@@ -72,6 +72,31 @@ namespace AlgoritmeAfl
                 sprite = Image.FromFile(@"Images\Wall.png");
 
             }
+            if (cellType == "TOWER")
+            {
+                sprite = Image.FromFile(@"Images\tower2.png");
+
+            }
+            if (cellType == "KEY")
+            {
+                sprite = Image.FromFile(@"Images\key.png");
+
+            }
+            if (cellType == "WIZARD")
+            {
+                sprite = Image.FromFile(@"Images\Bound_Wizard.png");
+
+            }
+            if (cellType == "TREE")
+            {
+                sprite = Image.FromFile(@"Images\Tree.png");
+
+            }
+            if (cellType == "PORTAL")
+            {
+                sprite = Image.FromFile(@"Images\Portal.png");
+
+            }
         }
 
         
