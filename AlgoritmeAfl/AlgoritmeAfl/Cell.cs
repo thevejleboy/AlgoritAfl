@@ -13,6 +13,8 @@ namespace AlgoritmeAfl
         private Point position;
         private int cellSize;
         private Image sprite;
+        private string name;
+        private Cell parent;
 
         public Rectangle BoundingRectangle
         {
@@ -21,11 +23,36 @@ namespace AlgoritmeAfl
                 return new Rectangle(position.X*cellSize,position.Y*cellSize,cellSize,cellSize);
             }
         }
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
 
-        public Cell(Point position, int size)
+            set
+            {
+                name = value;
+            }
+        }
+        internal Cell Parent
+        {
+            get
+            {
+                return parent;
+            }
+
+            set
+            {
+                parent = value;
+            }
+        }
+
+        public Cell(Point position, int size, string name)
         {
             this.position = position;
             this.cellSize = size;
+            this.name = Name;
         }
 
         public void Render(Graphics dc)
