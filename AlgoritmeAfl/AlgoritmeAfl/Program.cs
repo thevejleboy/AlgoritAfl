@@ -18,7 +18,7 @@ namespace AlgoritmeAfl
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1()); //doakodsaodkaokdosa
         }
-        private static Cell DFS(List<Cell> cells, string goal)
+        private static Cell DFS<T>(List<Cell> cells, T goal)
         {
 
             Stack<Cell> stack = new Stack<Cell>();

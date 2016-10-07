@@ -10,24 +10,24 @@ namespace AlgoritmeAfl
     class Edge
     {
        
-        private Point from; 
+        private Cell from; 
 
-        private Point to; 
+        private Cell to; 
 
 
-        public Point To
+        public Cell To
         {
             get { return to; }
             set { to = value; }
         }
 
-        public Point From
+        public Cell From
         {
             get { return from; }
             set { from = value; }
         }
 
-        public Edge(Point From, Point To)
+        public Edge(Cell From, Cell To)
         {
             from = From;
             to = To;

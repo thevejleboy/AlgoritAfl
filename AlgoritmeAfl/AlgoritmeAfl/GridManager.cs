@@ -63,7 +63,7 @@ namespace AlgoritmeAfl
             {
                 for (int y = 0; y < cellRowCount; y++)
                 {
-                    grid.Add(new Cell(new Point(x, y), cellSize));
+                    grid.Add(new Cell(new Point(x, y), cellSize,""));
                 }
             }
         }
