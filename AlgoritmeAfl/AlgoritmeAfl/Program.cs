@@ -53,6 +53,25 @@ namespace AlgoritmeAfl
 
             return null;
         }
+        public static List<Cell> TrackPath<T>(Cell cell, Cell start)
+        {
+            List<Cell> path = new List<Cell>();
 
+            while (!cell.Equals(start))
+            {
+                path.Add(cell);
+                cell = cell.Parent;
+            }
+            path.Add(start);
+
+            path.Reverse();
+
+            foreach (Cell pathCell in path)
+            {
+                Console.WriteLine(pathCell.Name);
+            }
+
+            return path;
+        }
     }
 }

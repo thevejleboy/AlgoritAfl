@@ -36,3 +36,9 @@ C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\Algori
 C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.csproj.GenerateResource.Cache
 C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.exe
 C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\obj\Debug\AlgoritmeAfl.pdb
+C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Bound_Wizard.png
+C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Grass.png
+C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\key.png
+C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Portal.png
+C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\tower2.png
+C:\Users\Bent\Source\Repos\AlgoritAfl\AlgoritmeAfl\AlgoritmeAfl\bin\Debug\Images\Tree.png
