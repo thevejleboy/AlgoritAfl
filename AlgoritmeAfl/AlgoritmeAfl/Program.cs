@@ -18,34 +18,34 @@ namespace AlgoritmeAfl
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1()); //doakodsaodkaokdosa
         }
-        private static Node<T> DFS<T>(List<Node<T>> nodes, T goal)
+        private static Cell DFS(List<Cell> cells, string goal)
         {
-            
-            Stack<Node<T>> stack = new Stack<Node<T>>();
 
-            Node<T> currentNode = nodes[0]; 
+            Stack<Cell> stack = new Stack<Cell>();
 
-            stack.Push(currentNode); 
+            Cell currentCell = cells[0];
 
-            while (stack.Count > 0) 
+            stack.Push(currentCell);
+
+            while (stack.Count > 0)
             {
-                currentNode = stack.Pop(); 
+                currentCell = stack.Pop();
 
-                if (currentNode.Name.Equals(goal)) 
+                if (currentCell.Name.Equals(goal))
                 {
-                    return currentNode; 
+                    return currentCell;
                 }
-                if (!currentNode.Visited)
+                if (!currentCell.Visited)
                 {
-                    currentNode.Visited = true; 
+                    currentCell.Visited = true;
 
-                    foreach (Edge<T> e in currentNode.MyEdges) 
+                    foreach (Edge e in currentCell.MyEdge)
                     {
 
-                        if (!e.To.Visited) 
+                        if (!e.To.Visited)
                         {
-                            e.To.Parent = currentNode;
-                            stack.Push(e.To); 
+                            e.To.Parent = currentCell;
+                            stack.Push(e.To);
                         }
                     }
                 }
@@ -53,5 +53,6 @@ namespace AlgoritmeAfl
 
             return null;
         }
+
     }
 }

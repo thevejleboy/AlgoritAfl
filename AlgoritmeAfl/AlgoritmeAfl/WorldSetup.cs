@@ -20,16 +20,16 @@ namespace AlgoritmeAfl
         public List<Wall> CreateWalls()
         {
             List<Wall> walls = new List<Wall>();
-            walls.Add(new Wall(new Point(350, 400)));
-            walls.Add(new Wall(new Point(400, 400)));
-            walls.Add(new Wall(new Point(350, 300)));
-            walls.Add(new Wall(new Point(400, 300)));
-            walls.Add(new Wall(new Point(350, 200)));
-            walls.Add(new Wall(new Point(400, 200)));
-            walls.Add(new Wall(new Point(350, 150)));
-            walls.Add(new Wall(new Point(400, 150)));
-            walls.Add(new Wall(new Point(350, 350)));
-            walls.Add(new Wall(new Point(400, 350)));
+            walls.Add(new Wall(new Point(350, 400), "wall"));
+            walls.Add(new Wall(new Point(400, 400), "wall"));
+            walls.Add(new Wall(new Point(350, 300), "wall"));
+            walls.Add(new Wall(new Point(400, 300), "wall"));
+            walls.Add(new Wall(new Point(350, 200), "wall"));
+            walls.Add(new Wall(new Point(400, 200), "wall"));
+            walls.Add(new Wall(new Point(350, 150), "wall"));
+            walls.Add(new Wall(new Point(400, 150), "wall"));
+            walls.Add(new Wall(new Point(350, 350), "wall"));
+            walls.Add(new Wall(new Point(400, 350), "wall"));
 
             return walls;
         }

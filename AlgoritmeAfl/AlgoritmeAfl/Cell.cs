@@ -15,6 +15,9 @@ namespace AlgoritmeAfl
         private Image sprite;
         private string name;
         private Cell parent;
+        private bool visited = false;
+        private List<Edge> myEdge = new List<Edge>();
+
 
         public Rectangle BoundingRectangle
         {
@@ -47,6 +50,33 @@ namespace AlgoritmeAfl
                 parent = value;
             }
         }
+        public bool Visited
+        {
+            get
+            {
+                return visited;
+            }
+
+            set
+            {
+                visited = value;
+            }
+        }
+        public List<Edge> MyEdge
+        {
+            get
+            {
+                return myEdge;
+            }
+
+            set
+            {
+                myEdge = value;
+            }
+        }
+
+
+
 
         public Cell(Point position, int size, string name)
         {

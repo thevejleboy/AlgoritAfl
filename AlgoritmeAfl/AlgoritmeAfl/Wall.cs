@@ -11,10 +11,11 @@ namespace AlgoritmeAfl
     {
 
         public Point Position { get; set; }
+        public string Name { get; set; }
 
-        public Wall(Point position) 
+        public Wall(Point position, string name) 
         {
-
+            this.Name = name;
             this.Position = position;
             
         }
